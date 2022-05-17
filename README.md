@@ -1,1 +1,0 @@
-# JYANSOONY.github.io
