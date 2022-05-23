@@ -80,8 +80,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+#theme: jekyll-theme-hydejack
+ remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
@@ -421,3 +421,7 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+
+# Add Custom Favicon
+favicon: /assets/img/favicon.png
+apple_touch_icon: /assets/img/logo.png
