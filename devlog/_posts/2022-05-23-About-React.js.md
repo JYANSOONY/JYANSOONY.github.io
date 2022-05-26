@@ -58,7 +58,7 @@ sitemap: false
 <br>
 
 ## Characteristics of React
-- <strong>단방향 데이터 흐름</strong>
+- <strong>단방향 데이터 흐름</strong><br>
 복잡한 앱에서도 데이터 흐름에서 일어나는 변화를 보다 예측 가능하다.
 
 <br>
