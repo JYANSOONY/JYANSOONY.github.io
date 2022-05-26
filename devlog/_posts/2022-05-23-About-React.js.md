@@ -25,8 +25,10 @@ sitemap: false
 - Table of Contents
 {:toc .large-only}
 
-## What is React?
+## Need for React?
+ - html과 css, javascript를 이용해서 웹 페이지를 만들 수 있지만, react를 이용해 사용자와 상호작용할 수 있는 동적인 UI를 쉽게 만들 수 있기 때문에 많이 이용한다.
 
+## What is React?
 - ui기능만 제공한다. 전역 상태 관리, 라우팅 또는 빌드시스템등은 개발자가 직접 구축해야함<br>
   ✔높은자유도, 번거로움 <br>
   ✔creat-react-app 으로 다소 해소 가능
@@ -53,6 +55,48 @@ sitemap: false
   ✔가상돔 때문에 순수 자바스크립트보다 무조건 빠르게 동작한다는것은 아니다. 
    프로젝트 성격에 따라 성능 최적화 방법은 다를 수 있음
 
+<br>
+
+## Characteristics of React
+- <strong>단방향 데이터 흐름</strong>
+복잡한 앱에서도 데이터 흐름에서 일어나는 변화를 보다 예측 가능하다.
+
+<br>
+
+- <strong>Component 기반 구조</strong>
+ > Component는 독립적인 단위의 소포트 모듈이다.
+
+ &nbsp; React는 UI를 여러 컴포넌트를 쪼개서 만든다.<br>
+ 한 페이지 내에서도 여러 각 부분을 독립된 컴포넌트로 만들고, 이 컴포넌트를 조립해 화면을 구성한다.<br>
+컴포넌트 단위로 쪼개져 있기 때문에, 코드를 파악하기 쉬우며 재사용성이 높다.<br> 
+ &nbsp; 코드를 반복해 입력 할 필요 없이 컴포넌트만 import해 사용해면 되기에 간편하며, 애플리케이션이 복잡해지더라도 코드의 유지보수가 용이 해진다.
+
+<br>
+
+ - <strong>Virtual DOM</strong>
+ > DOM은 html, xml, css 등을 투리 구조로 인식하고, 데이터를 객체로 간주하고 관리하며 리액트는 이 DOM트리 구조와 같은 구조체를 Virtual DOM으로 가지고 있다.
+
+ &nbsp; 이벤트가 발생할 때 마다 Virtual DOM을 만들고, 다시 그릴 때 마다 실제 돔과 비교해 변경이 필요한 최소한의 변경 사항만 realDOM에 반영해, 앱의 효율성과 속도를 개선할 수 있다. 
+
+<br>
+
+- <strong>Props & State</strong>
+
+👉Props<br>
+&nbsp; Props란 부모 컴포넌트에서 자식 컴포넌트로 전달해 주는 데이터를 말한다.<br>자식 컴포넌트에서 전달받은 props는 변경이 불가하고 props를 전달해준 최상위 부모 커뫂넌트에서만 변경 가능 <font color="gray" style="italic">읽기 전용이라 생각하면 쉽다.</font>
+<br>
+
+👉State<br>
+&nbsp; State는 컴포넌트 내부에서 선언하며 내부에서 값을 변경할 수 있다.<br> State는 동적인 데이터를 다룰 때, 사용자와의 상호작용을 통해 데이터를 동적으로 변경할 때 사용한다.<br> 
+&nbsp; 클래스형 컴포넌트에서만 사용할 수 있고, 각각의 State는 독립적이다.
+
+<br>
+
+- <strong>JSX</strong>
+
+&nbsp; JavaScript를 확장한 문법이다.
+리액트에서 JSX사용이 필수는 아니지만 권장하고 있다.<br>
+ > 모든 것을 설명하기엔 어렵다. 아래 공식 문서를 확인하는 것을 추천한다.<br><a href="https://ko.reactjs.org/docs/introducing-jsx.html">React의 JSX</a>
 <!-- Ever since the introduction of Dark Mode, link styles have been a bit of an issue. Specifically, finding an accent color that worked on both light and dark backgrounds was the problem. With Hydejack 9, the [link style](#linking-in-style) has been revamped so that legibility is no longer tied to the choice of accent_color, giving you much more freedom in creating a unique design flavor for your site. -->
 
 
