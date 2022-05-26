@@ -2,7 +2,7 @@
 layout: post
 title: About React.js
 image: 
-  path: /assets/img/blog/jeremy-bishop@0,5x.jpg
+  path: /assets/img/blog/react-rogo.jpg
 description: >
   본격적인 React.js 공부를 하기전 간단하게 리액트가 무엇인지 짚고 넘어가려합니다.
 sitemap: false
