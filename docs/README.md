@@ -18,7 +18,7 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 
 
 ## devlog의 시작
-* [devlog]{:.heading.flip-title} --- How to install and run Hydejack.
+* [devlog]{:.heading.flip-title} --- git Blog 시작
 {:.related-posts.faded}
 
 [devlog]: ../devlog/_posts/2022-05-19-introducing-jyansoony-9.md
