@@ -10,8 +10,7 @@ slug: devlog
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/example.md` to learn how to create your own.
+  공부중인 개발 지식을 기록하는 DEV Blog 입니다.
 # example.md
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
