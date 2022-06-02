@@ -8,12 +8,7 @@ hide_description: true
 sitemap: false 
 permalink: /docs/
 ---
-샘플 본문입니다.<br>
-Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
-Should you think something is missing,
-Should you discover a mistake in the docs (or a bug in general) feel free to on GitHub.
-
-While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
+개발외에도 나의 일상을 기록하는 카테고리입니다. 현재는 공사중!
 {:.note}
 
 

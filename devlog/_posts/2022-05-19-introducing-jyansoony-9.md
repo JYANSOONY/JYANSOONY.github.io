@@ -16,9 +16,11 @@ Hello World! 프론트엔드 개발자 JYANSOONY 입니다.
 - Table of Contents
 {:toc .large-only}
 
-## 샘플 본문입니다
+## 리액트
 
-Ever since the introduction of Dark Mode, link styles have been a bit of an issue. Specifically, finding an accent color that worked on both light and dark backgrounds was the problem. With Hydejack 9, the [link style](#linking-in-style) has been revamped so that legibility is no longer tied to the choice of accent_color, giving you much more freedom in creating a unique design flavor for your site.
+&nbsp;대학생 시절 인턴을 하며 리액트를 다뤄보았고 이 시점으로 리액트를 공부 중이며 프론트엔드 개발자로 전향하게되었습니다. 현재 이 블로그는 당분간 리액트 학습 내용 위주로 작성될 것 같습니다.
+
+
  
 
 

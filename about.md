@@ -12,10 +12,7 @@ redirect_from:
 # About
 
 <!--author-->
-
-## 샘플 본문입니다
-
-A boutique Jekyll theme for hackers, nerds, and academics.  
+  
 {:.lead}
 
 1. this list will be replaced by the toc
