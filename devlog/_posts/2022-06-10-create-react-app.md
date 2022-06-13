@@ -170,3 +170,53 @@ export default App;
 
  &nbsp;이렇게 수정만 해주면 동적으로 데이터를 받아올 수 있습니다.
 
+ <br>
+
+## create-react-app의 명령어
+
+<br>
+
+<code>
+"scripts": {<br>
+    "start": "react-scripts start",<br>
+    "build": "react-scripts build",<br>
+    "test": "react-scripts test",<br>
+    "eject": "react-scripts eject"<br>
+  },
+  </code>
+
+✨start : 개발모드로 실행할 때 사용(최적화 적용x)
+>기본적으로 http로 실행 https로 실행하고 싶을 때는  set HTTPS=true&&npm start 명렁어로 실행(mac : HTTPS=true npm start)
+
+<br>
+✨build : 배포할 때 사용합니다. 빌드하면 정적파일 생성 합니다.<br> 별도로 서버에 애플리케이션을 실행하지 않기 때문에 서버사이드 렌더링을 할 수 없다.
+
+<br>
+
+✨test : testjs이나 spec.js 파일 혹은 __test__폴더의 하위 파일들을 test하는 명령어
+
+<br>
+
+✨eject : react-scripts를 사용하지 않고 모든 설정파일을 추출하는 명령어이다.<br> create-react-app을 기반으로 직접 개발환경을 구축하고 싶을 때 사용함.<br> 추출 하지않으면 create-react-app의 기능이 추가 됐을 때 단순이 리액트 스크립트 버전만 올리면 되는데, 이 기능을 사용할 때는 수동으로 설정파일을 수정해야하는 단점이 있다.
+
+<br>
+
+## 환경변수
+
+ <br>
+
+  >개발, 테스트 배포 환경별로 다른 값을 적용할 때 이용합니다.
+
+전달된 환경변수는 <code>process.env(변수 이름)</code>으로 사용할 수 있다.<br>
+create-react-app에서는 기본적으로 NODE_ENV라는 환경변수를 가지고 있다<span>(process.env.NODE_ENV)</span>
+<br>
+ - mac : <br>
+<code>console.log('process.NODE_ENV', process.env.NODE_ENV);</code><br>
+<code>console.log('process.REACT_APP_API_URL', process.env.REACT_APP_API_URL);</code>
+<br>
+ - window : <br>
+ <code>REACT_APP_API_URL =api.myapp.com npm start</code><br>
+<code>set "REACT_APP_API_URL =api.myapp.com" && np start</code>
+<br>
+환경변수가 많아지면 .env 파일로 관리하는 것이 좋다.
+root폴더에서 환경변수 별로 파일을 관리할 수 있다.
